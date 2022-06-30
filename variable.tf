@@ -4,12 +4,12 @@
 
 # For AWS provider
 variable "AWS_REGION" {
-  default     = "eu-central-1"
+  default     = "eu-west-3"
   description = "Default AWS Region"
 }
 
 variable "shared_credentials_file" {
-  default     = "C:/Users/Training/.aws/credentials"
+  default     = "C:/Users/003B58744/.aws/credentials"
   description = "Shared AWS credintials file location"
 }
 
@@ -21,5 +21,5 @@ variable "profile" {
 #Resoure related variables
 
 variable "m_ami" {
- default = "ami-0a1ee2fb28fe05df3"
+ default = "ami-0623a3ed263c999ed"
 }
